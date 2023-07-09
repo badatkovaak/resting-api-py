@@ -2,3 +2,5 @@ django
 djangorestframework
 requests
 pyyaml
+flet
+django-tailwind[reload]

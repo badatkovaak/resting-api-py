@@ -1,0 +1,31 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>Django</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		{% tailwind_css %}
+	</head>
+	<body>
+        <header class="bg-green-500 fixed w-screen">
+            <div class="flex space-x-3 place-content-evenly">
+                <button class="bg-red-500 border-solid border-2 border-black" onclick="location.href = 'http://localhost:8000/admin'">
+                    button
+                </button> 
+                <div class="align-middle">Header</div>
+                <button class="border-3 border-black">button</button>
+                <div class="align-middle">Header</div>
+            </div>
+        </header>
+        <div class="pb-96">
+            content
+        </div>
+        <div class="pb-96">
+            content
+        </div>
+        <div class="pb-96">
+            content
+        </div>   </body>
+</html>
